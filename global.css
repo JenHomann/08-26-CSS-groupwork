@@ -1,0 +1,90 @@
+#container {
+  background: red;
+  margin: 0 auto;
+  width:1200px;
+}
+
+header {
+  background: gray;
+  height: 500px;
+  text-align: center;
+  color: white;
+  padding: 60px;
+}
+
+header h1 {
+  font-size: 80px;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+header h2 {
+  font-size: 50px;
+  font-weight: normal;
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+#description {
+  background: #F2D096;
+  padding: 40px;
+}
+
+#description #head {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#description h3 {
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#description p {
+  font-size: 20px;
+  margin: 0;
+}
+#description #portfolio {
+  text-align: center;
+}
+
+#description li {
+  display: inline-block;
+}
+
+#description img {
+  width: 230px;
+}
+
+#staff_info {
+  background: #4CC5EF;
+  text-align: center;
+  padding: 40px
+}
+
+#staff_info h4 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 40px
+}
+
+#staff_info .faces {
+  background: #4CC5EF;
+  text-align: center;
+  float: left;
+  width: 280px;
+  margin: 0;
+}
+
+footer {
+  background: #3E3E3E;
+  clear: both;
+}
